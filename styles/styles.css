@@ -9,6 +9,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* Shared Styles */
 
 .primary-btn{
@@ -91,9 +98,11 @@ header nav {
 }
 
 .action-img{
-    max-width: 403px;
-    max-height: 328px;
+    width: 403px;
+    height: 328px;
     border-radius: 48px;
+    object-fit: cover;
+    object-position: top left;
 }
 
 .productive-user{
@@ -124,7 +133,172 @@ header nav {
 .productive-user-data-description{
     font-size: 20ox;
     color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
 }
 
 
-/* Extra Section (Will do Later */
+/* User Feedback Section Styles */
+
+.user-feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin: 24px 8px 24px; 
+}
+.user-feedback-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 50px 150px;
+}
+
+.user-feedback-card{
+    height: 243px;
+    width: 366px;
+    padding: 24px;
+    border: none;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 15px #dc8686;
+}
+
+.user-feedback-stars{
+    padding-left: 24px;
+}
+
+.user-feedback-subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    padding: 8px 24px;
+}
+
+.user-feedback-description{
+    font-size: 16px;
+    color: #1E1E1E;
+    padding: 0px 24px 24px;
+}
+
+.user-feedback-name-img{
+    display: flex;
+    gap:12px;
+    margin-left: 24px;
+}
+.user-feedback-avater{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.user-feedback-name{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #757575;
+}
+.user-feedback-date{
+   color: #B3B3B3;
+   font-size: 16px;
+}
+
+.user-feedback-description{
+    font-size: 16px;
+}
+
+
+
+
+/* Forms Styles */
+.forms-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 92px 14px 150px; */
+}
+.forms{
+    width: 497px;
+    align-items: center;
+}
+.forms-heading{
+    font-size: 97px;
+    font-weight: bold;
+    margin: 200px 0px ;
+    color: #000;
+}
+/* .forms label input{
+    display: flex;
+    flex-direction: column;
+    padding: 71px 0px;
+} */
+
+.forms label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.forms input{
+    background-color: #fff;
+    height: 70px;
+    width: 497px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.forms button{
+   width: 100%;
+}
+
+
+.forms textarea{
+    font-size: 20px;
+    width: 497px;
+    height: 135px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.forms div{
+    margin: 19px 0px;
+}
+
+
+
+/* Footer Section Styles*/
+.footer{
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.footer-header{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.footer-description{
+    font-size: 16px;
+    color: #8987A1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer li{
+    list-style: none;
+     margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#8987A1;
+}
