@@ -76,6 +76,7 @@ header nav {
 .action{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 116px;
     gap: 220px;
 }
@@ -101,8 +102,6 @@ header nav {
     width: 403px;
     height: 328px;
     border-radius: 48px;
-    object-fit: cover;
-    object-position: top left;
 }
 
 .productive-user{
@@ -135,6 +134,8 @@ header nav {
     color: rgba(0, 0, 0, 0.5);
     padding-bottom: 50px;
 }
+
+
 
 
 /* User Feedback Section Styles */
@@ -208,12 +209,14 @@ header nav {
 
 
 /* Forms Styles */
+
+
 .forms-container{
     display: flex;
     justify-content: space-around;
     /* margin: 92px 14px 150px; */
 }
-.forms{
+.forms {
     width: 497px;
     align-items: center;
 }
@@ -236,13 +239,13 @@ header nav {
 }
 
 .forms input{
+    font-size: 20px;
     background-color: #fff;
     height: 70px;
     width: 497px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
     padding-left: 20px;
-    font-size: 20px;
 }
 
 .forms button{
@@ -252,8 +255,9 @@ header nav {
 
 .forms textarea{
     font-size: 20px;
-    width: 497px;
+    background-color: #fff;
     height: 135px;
+    width: 497px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
     padding: 20px;
@@ -261,6 +265,12 @@ header nav {
 
 .forms div{
     margin: 19px 0px;
+}
+
+.forms textarea,
+.forms input,
+.forms button {
+    box-sizing: border-box;
 }
 
 
@@ -302,3 +312,10 @@ header nav {
     font-size: 16px;
     color:#8987A1;
 }
+
+
+
+
+
+
+
